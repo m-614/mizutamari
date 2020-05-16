@@ -8,27 +8,19 @@
         <meta name=”viewport” content=”width=device-width,initial-scale=1.0″>
     </head>
     <body>
-        
-        <header>
-            <!--何かあれば入れる-->
-        </header>
         <div class="content">
             <!--IEに対応しなかった場合-->
             <script src="https://cdn.jsdelivr.net/npm/ie-buster@1.1.0/dist/ie-buster.min.js"></script>
-            <div class="title">
-                <!--クイズの大まかな説明など-->
-            </div>
-
-            <div id = quiz_content class="quiz_content"></div>
-
-
+            
+            <h1 class="quiz_title">水溜まりボンドの500問クイズ！</h1>
+            <div id="quiz_content" class="quiz_content"></div>
         </div>
         <div class="menu">
-            <p>諦める</p>
-            <p>続ける</p>
+            <input type="submit" id="next" class="selection" value="次の10問へ進む">
+            <input type="submit" id="stop" class="selection" value="諦めて採点する">
+            <div class="point" id="point"></div>
+            <div class="point_result" id="point_result"></div>
         </div>
-
-
         <script src="demo3.js"></script>
     </body>
 </html>
