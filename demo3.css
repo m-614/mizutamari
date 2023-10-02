@@ -29,6 +29,6 @@
     border        : 2px solid cyan;    /* 枠の指定 */
 }
 .selection:hover {
-    color         :  white;     /* 背景色     */
+    color         : white;     /* 背景色     */
     background    : navy;     /* 文字色     */
 }
