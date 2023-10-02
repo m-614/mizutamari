@@ -23,7 +23,7 @@
     cursor        : pointer;     /* カーソル   */
     padding       : 12px 12px;   /* 余白       */
     background    : white;     /* 背景色     */
-    color         : cyan;     /* 文字色     */
+    color         : navy;     /* 文字色     */
     line-height   : 1em;         /* 1行の高さ  */
     transition    : .3s;         /* なめらか変化 */
     border        : 2px solid cyan;    /* 枠の指定 */
